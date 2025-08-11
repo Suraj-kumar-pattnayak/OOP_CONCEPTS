@@ -1,0 +1,25 @@
+1️⃣ Constructor
+A constructor is a special member function that:
+
+Has the same name as the class.
+No return type (not even void).
+Runs automatically when an object is created.
+Usually used to initialize variables or allocate resources.
+
+Types of Constructors:
+Default constructor – no parameters.
+Parameterized constructor – takes arguments.
+Copy constructor – makes a copy of another object.
+
+
+2️⃣ Destructor
+A destructor:
+
+Same name as the class but prefixed with ~.
+No parameters, no return type.
+Runs automatically when the object goes out of scope or is deleted.
+Used to free resources (close files, release memory, etc.).
+
+
+note-> destuctor cant be overloaded like constructor, bcs allowed one time
+and dont have ay arguments, and can be virtual unlike constructor.
