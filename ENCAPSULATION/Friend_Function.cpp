@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Note-> We rarely use friend function , bcs it violates the rules of encapsulation.
+//Encapsulation means hiding the internal data and implementation details of a class 
+//and allowing controlled access through public member functions (getters, setters, etc.).
+// but A friend function is not a member of the class but still has access to its private and protected members.
+// This means external code can directly manipulate the internal state without going through validation or control logic in the class.
+
+
+
 // C++ Friend Functions
 // Normally, private members of a class can only be accessed using public methods 
 // like getters and setters. But in some cases, you can use a special function called a friend function 
